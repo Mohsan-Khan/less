@@ -1,3 +1,36 @@
 body {
-  background-color: #4c4c5c;
+    background-color: black;
+}
+
+body header {
+    height: 300px;
+    background-color: #c1e485;
+}
+
+body header a {
+    font-size: 50px;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+}
+
+body main {
+    display: flex;
+    justify-content: space-around;
+    background-color: aqua;
+}
+
+body main div {
+    height: 300px;
+    width: 300px;
+    margin: 5px;
+    background-color: black;
+    color: white;
+}
+
+body footer {
+    height: 200px;
+    background-color: lightsteelblue;
 }
