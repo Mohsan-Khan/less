@@ -1,0 +1,14 @@
+body {
+  background-color: black;
+}
+body header {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+body header div {
+  height: 50px;
+  width: 50px;
+  background-color: darkgray;
+  color: white;
+}

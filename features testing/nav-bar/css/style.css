@@ -1,0 +1,78 @@
+html,
+body {
+  background-color: black;
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+a {
+  text-decoration: none;
+  list-style-type: none;
+  color: wheat;
+}
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  background-color: brown;
+  height: 4em;
+}
+.navigation .logo {
+  margin: 1.2em;
+}
+.navigation .logo a {
+  font-size: 1.2em;
+  padding: 1em;
+}
+.navigation .logo a:hover {
+  background-color: coral;
+  color: #0e0d0d;
+}
+.links a {
+  font-size: 1.2em;
+  padding: 1em;
+}
+.links a:hover {
+  background-color: coral;
+  color: #0e0d0d;
+}
+.links {
+  display: flex;
+}
+.ham {
+  margin-right: 1em;
+  display: none;
+}
+.ham a {
+  padding: 0em .5em 0em .5em;
+  font-size: 2.4em;
+}
+.ham a:hover {
+  background-color: coral;
+  color: #0e0d0d;
+}
+.ham a:hover .links {
+  display: block;
+}
+@media (max-width: 600px) {
+  .links {
+    display: none;
+  }
+  .ham {
+    display: flex;
+  }
+  :hover .links {
+    display: block;
+    height: 100%;
+    background-color: coral;
+    color: #0e0d0d;
+    padding: 0px;
+    margin: 0px;
+  }
+  :active .links {
+    display: block;
+    background-color: coral;
+    color: #0e0d0d;
+    padding: 0px;
+    margin: 0px;
+  }
+}
